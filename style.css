@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777;
+    background: #777;
+    width: 960px;
+    font-size: 18px;
+}
+
+header{
+    position: relative;
+    left: 45%;
+    padding: 40px;
+    margin-bottom: 10px;
+    text-align: center;
+    background: #ebebeb;
+}
+
+#nav{
+    position: relative;
+    left: 45%;
+    padding: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+    background: #ebebeb;
+}
+
+#seciton{
+    position: relative;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    background: #ebebeb;
+}
