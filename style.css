@@ -4,82 +4,86 @@
 
 body{
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    color: #777;
+    color:#777;
     background: #777;
     width: 960px;
     font-size: 18px;
-    margin: 10px auto;
+    margin: 0px auto;
+    text-align: center;
+    clear: both
 }
 
-header{
-    padding: 40px 0px;
-    text-align: center;
+#header{
     background: #ebebeb;
+    padding: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 #nav{
-    margin-top: 10px;
-    padding: 40px 0px;
-    text-align: center;
     background: #ebebeb;
-}
-
-p{
-    text-align: center;
-    margin: 0px;
+    padding: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 #section{
-    float: left;
-    width: 470px;
-    height: 270px;
-    margin-top: 20px;
-    margin-right: 10px;
-    margin-bottom: 10px;
-    margin-left: 0px;
-    padding: 40px 10px;
-    text-align: center;
     background: #ebebeb;
+    padding: 20px;
+    margin-top: 10px;
+    margin-right: 10px;
+    width: 495px;
+    float: left;
 }
 
 #article{
-    height: 180px;
-    margin-top: 20px;
-    padding-top: 20px;
-    text-align: center;
     color: #ebebeb;
     background: #777;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 10px;
+    width: 460px;
+    float: left;
+  
 }
 
 #h1h2h3{
-    margin: 10px 20px;
-    padding: 15px;
-    text-align: center;
     color: #777;
     background: #ebebeb;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+    margin-right: 5px;
+    
 }
 
 #p{
-    margin: 10px 20px;
-    padding: 15px;
-    text-align: center;
     color: #777;
     background: #ebebeb;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+    margin-right: 5px;
+}
+
+p{
+    margin: 0px;
+    padding: 0px;
 }
 
 #aside{
-    float: left;
-    width: 470px;
-    height: 270px;
-    margin: 20px 0px 20px 10px;
-    padding: 20px;
-    text-align: center;
     background: #ebebeb;
+    padding: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+    float: left;
+    width: 445px;
+    height: 295px;
 }
 
-footer{
-    clear:both;
-    padding: 40px 0px;
-    text-align: center;
+#footer{
     background: #ebebeb;
+    margin-top: 30px;
+    height: 81px;
+
 }
